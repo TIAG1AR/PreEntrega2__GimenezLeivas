@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style-type:none;
+}
+
+a {
+    text-decoration:none;
+}
+body{
+    height:100%;
+    background-color:bisque;
+}
+
+header{
+    height:15vh;
+    background-color:rgb(54, 21, 0);
+    margin-bottom:150px;
+}
+
+.navbar{ 
+    padding:1.5rem;
+    background-color:rgb(54, 21, 0);
+}
+
+.navbar-collapse{
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar-toggler{
+    background-color:rgb(204, 149, 68);
+    border:none;
+}
+
+
+.logo__princial__header{
+    height:75px;
+    width:70px;
+}
+
+.nav-link{
+    color:rgb(204, 149, 68);
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+}
+
+
+main{
+    height:auto;
+    margin-bottom:150px;
+}
+
+.h1__index{
+    font-size:2rem;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    margin:20px;
+}
+
+.imgs__carrusel__index{
+    width:100%;
+    height:70vh;
+    border:5px solid rgb(54, 21, 0);
+    
+}
+
+.seccion__dos__index{
+    margin-top:150px;
+}
+
+.div__img__segunda__seccion__index{
+    border-radius:5%;
+    padding:10px;
+    height:100%;
+}
+
+.imagen__index__1{
+    height:100%;
+    max-width:100%;
+    border:5px solid rgb(54, 21, 0);
+}
+
+.div__p__segunda__seccion__index{
+    background-color:rgb(54, 21, 0);
+    color:rgb(204, 149, 68);
+    border-radius:5%;
+    padding:25px;
+    height:100%;
+}
+
+
+
+footer{
+    height:25vh;
+    background-color:rgb(54, 21, 0);
+    padding:10px;
+}
+
+.icono__copyrrigth__footer{
+    width:30px;
+    height:30px;
+    color:rgb(204, 149, 68);
+}
+
+.a__redes__sociales__footer{
+    text-decoration:none;
+    color:rgb(204, 149, 68);
+}
+
+
+/* inicia la pagina cafe.htmml */
+
+.h1__cafe{
+    font-size:2rem;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    margin:20px;
+}
+
+.primer__texto__primera__seccion{
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+}
+
+/* segunda seccion */
+
+.texto__imagenes__granos-cafe__pagina__cafe{
+    text-align:justify;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+}   
+
+
+.imagen__granos__de__cafe__uno{
+    width:40vw;
+    margin-bottom:20px;
+}
+
+/* inicia la pagina cafeteras.htmml */
+
+
+.h1__cafeteras{
+    font-size:2rem;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    margin:20px;
+}
+
+/* primera seccion cafeteras.html */
+
+.primer__parrafo__pagina__cafeteras{
+    text-align:justify;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h3__1__cafeteras{
+    text-align:justify;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.segundo__parrafo__pagina__cafeteras{
+    text-align:justify;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* segunda seccion pagina cafeteras.html */
+
+.texto__pre__cafeteras__pagina__cafeteras{
+    text-align:center;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagenes__cafeteras__pagina__cafeteras{
+    width:80vw;
+    height:75vh;
+}
+
+.ancla__imagenes__segunda__seccion__pagina__cafeteras{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+/* inicia la pagina noticias.htmml */
+
+
+.h1__noticias{
+    font-size:2rem;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    margin:20px;
+}
+
+/* primera seccion noticias.html */
+
+.primer__parrafo__primera__seccion__pagina__noticias{
+    font-size:2rem;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    margin:20px;
+}
+
+.imagen__noticias__primera__seccion__pagina__noticias{
+    height:35vh;
+    width:20vw;
+    border:5px solid rgb(96, 54, 1);
+    border-radius:3%;
+}
+
+/* primera segunda noticias.html */
+
+.imagen__segunda__seccion__pagina__noticias{
+    margin-top:30px;
+    width:90vw;
+    height:70vh;
+
+}
+
+.parrafo__segunda__seccion__pagina__noticias{
+
+    text-align:center;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Inicia la pagina reviews.html */
+
+.h1__reviews{
+    margin:20px;
+    font-size:2rem;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+}
+
+.parrafo__introduccion__pagina__reviews{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+}
+
+.primer__parrafo__primera__seccion__pagina__reviews{
+    margin:10px 25px;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+}
+
+.primera__imagen__primera__seccion__pagina__reviews{
+    height:75vh;
+    width:60vw;
+}
+
+/* incicia la pagina contacto.html */
+
+.h1__contacto{
+    color:black; 
+    font-size:2rem;
+    font-family: 'Poppins', sans-serif;
+    margin:20px;
+}
+
+.parrafos__pagina__contacto{
+    margin:10px 25px;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+}
+
+.label__nombre__completo__formulario{
+    margin:10px 25px;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+}
+
+.label__correo__formulario{
+    margin:10px 25px;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+}
+
+.label__contraseña__formulario{
+    margin:10px 25px;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+}
+
+.label__dudas__formulario{
+    margin:10px 25px;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+}
+
+.input__nombre__completo__formulario{
+    width:215px;
+}
+
+.input__correo__formulario{
+    width:215px;
+}
+
+.input__contraseña__formulario{
+    width:160px;
+}
+
+.botones__formulario{
+    width:150px;
+    height:30px;
+    border:2px solid rgb(54, 21, 0);
+    background-color:bisque;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+    font-size:1rem;
+    border-radius:5%;
+}
+
+.parrafos__pagina__contacto{
+    margin:10px 25px;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(96, 54, 1);
+    font-size:1.5rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display:none;
+}
+}
